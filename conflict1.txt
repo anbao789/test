@@ -1,1 +1,1 @@
-print "conflict1"
+print "confli"
