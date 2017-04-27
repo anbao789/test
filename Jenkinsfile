@@ -1,13 +1,13 @@
 #! /usr/bin/env groovy
 def test="hello"
-print("${test} world")
+print("${test} world from branch 1 hahaha")
 pipeline {
 agent any
 
 stages {
 stage ("test"){
 steps {
-sh 'ls -la'
+sh 'date'
 }
 }
 }
